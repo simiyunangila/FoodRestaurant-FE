@@ -26,7 +26,7 @@ section nav{
      
 }
 section nav img{
-    width: 70px;
+    width: 100px;
     cursor: pointer;
     margin: 7px 0;
 }
@@ -43,6 +43,7 @@ section nav ul li a{
     font-weight: 500;
     font-size: 17px;
     transition: 0.1s;
+   
 }
 section nav ul li a::after{
     content: '';
@@ -57,7 +58,8 @@ section nav ul li a:hover::after  {
     width: 100%;
 }
 section nav ul li a:hover{
-    color:#fac031 ;
+    background-color:#fac031 ;
+ 
 }
 section nav .icon i{
     font-size: 18px;
@@ -79,8 +81,8 @@ top: 130px;
 section .main .non_text h1{
     font-size: 40px;
     position: relative;
-    top: -60px; 
-    left: 20px; 
+    top: -85px; 
+    
 }
 section .main .non_text h1 span{
 margin-left: 15px;
@@ -93,20 +95,22 @@ section .main .main_image img{
 width: 700px;
 position: relative;
 left: 80px;
+
 }
 section p{
-    width: 650px;
+    width: 700px;
     text-align: justify;
     position: relative;
-    left: 30px;
+    left: 10%;
     bottom: 120px;
     line-height: 22px;
 }
 section .main_btn{
     background: #fac031;
     position: relative;
-    left: 123px;
+    left: 25%;
     bottom: 30px;
+    margin-top: -20px;
     width: 150px;
     cursor: pointer;
     padding: 12px 25px;
@@ -204,7 +208,7 @@ font-family: mv boli;
     width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-gap: 15px;
 }
 .menu .menu_box .menu_card{
@@ -361,6 +365,7 @@ width: 600px;
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
+    border-radius: 20px;
 }
 
 /* Team */
@@ -466,9 +471,10 @@ width: 600px;
 
 /* Footer */
 footer{
+    margin-top: -15%;
     width: 100%;
     padding: 30px 0 0 20px;
-    background: #eeeeee;
+    background: #d6cccc;
 }
 footer .footer_main{
     display: grid;
